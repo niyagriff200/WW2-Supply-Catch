@@ -8,7 +8,7 @@ public class HardLevelData : LevelData
     [SerializeField][Range(0f, 1f)] private float hardMailChance;
     public float HardMailChance => hardMailChance;
 
-    [SerializeField] private float hardNewspaperChance;
+    [SerializeField][Range(0f, 1f)] private float hardNewspaperChance;
     public float HardNewspaperChance;
 
     private void Awake()

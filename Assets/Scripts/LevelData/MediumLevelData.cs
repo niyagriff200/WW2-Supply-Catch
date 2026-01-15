@@ -8,7 +8,7 @@ public class MediumLevelData : LevelData
     [SerializeField][Range(0f, 1f)] private float mediumMailChance;
     public float MediumMailChance => mediumMailChance;
 
-    [SerializeField] private float mediumNewspaperChance;
+    [SerializeField][Range(0f, 1f)] private float mediumNewspaperChance;
     public float MediumNewspaperChance => mediumMailChance;
 
     private void Awake()

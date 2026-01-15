@@ -8,7 +8,7 @@ public class BeginnerLevelData : LevelData
     [SerializeField][Range(0f, 1f)] private float beginnerMailChance;
     public float BeginnerMailChance => beginnerMailChance;
 
-    [SerializeField] private float beginnerNewspaperChance;
+    [SerializeField][Range(0f, 1f)] private float beginnerNewspaperChance;
     public float BeginnerNewspaperChance => beginnerMailChance;
     
     private void Awake()
